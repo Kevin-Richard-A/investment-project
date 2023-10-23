@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/investment-calculator-logo.png'
 
-const Header = () => {
+const Headers = () => {
   return (
     <header className ="header">
       <img src={logo} alt="logo" />
@@ -10,4 +10,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Headers
