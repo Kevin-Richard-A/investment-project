@@ -1,4 +1,5 @@
-import Header from "./components/Header/header";
+import { useState } from "react";
+import Header from "./components/Header/Header";
 import ResultsTable from "./components/ResultsTable/ResultsTable";
 import Userinput from "./components/Userinput/Userinput";
 
@@ -64,7 +65,7 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Headers />
 
       <Userinput onCalculate={calculateHandler}/>
 
